@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 4</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header>
+    <h1>Ejercicio 4:</h1>
+    <p><a href="index.html"> Volver</a></p>
+    <hr />
+  </header>
+
+  <main>
+    <h2>Información sobre el producto</h2>
+
+  <form action="" method="post" enctype="multipart/form-data">
+      <fieldset>
+  
+        <legend>Datos básicos</legend>
+  
+        <p>
+          <label for="name">Nombre</label><br>
+          <input type="text" name="name" id="name">
+        </p>
+  
+        <p>
+          <label for="descr">Descripción</label> <br>
+          <textarea name="descr" id="descr" cols="30" rows="5"></textarea>
+        </p>
+  
+        <p>
+          <label for="foto">Foto</label>
+          <input type="file" name="foto" id="foto">
+        </p>
+  
+        <p>
+          <input type="checkbox" name="visitas" id="visitas">
+          <label for="visitas">Añadir contador de visitas</label>
+        </p>
+      </fieldset>
+  
+      <fieldset>
+  
+        <legend>Datos económicos</legend>
+  
+        <p>
+          <label for="price">Precio</label>
+          <input type="text" name="price" id="price" size="2">
+          €
+  
+          <label for="impuestos">   Impuestos</label>
+          <select name="impuestos" id="impuestos">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+          </select>
+        </p>
+  
+        <p>
+          Promoción <br>
+          <input type="radio" name="promotion" id="N">
+          <label for="N">Ninguno</label> <br>
+          <input type="radio" name="promotion" id="TG">
+          <label for="TG">Transporte gratuito</label> <br>
+          <input type="radio" name="promotion" id="desc5">
+          <label for="desc5">Descuento 5%</label> <br>
+        </p>
+      </fieldset>
+  
+      <p><button>Enviar</button></p>
+  </form>
+
+  </main>
+
+</body>
+
+</html>

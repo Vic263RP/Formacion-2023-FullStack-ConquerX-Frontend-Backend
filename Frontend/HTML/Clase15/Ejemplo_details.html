@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<header>
+  <h1>Ejemplo Details</h1>
+  <p><a href="index.html"> Volver</a></p>
+  <hr /> <br>
+</header>
+
+<main>
+
+  <button popovertarget="popover" popovertargetaction="toggle">Abrir popover</button>
+  <button onClick="document.getElementById('Dialog').open=true">Abrir Dialog</button>
+    
+  <section id="popover" popover>
+    <h2>AVISO DE POPOVER</h2>
+  </section>
+  <dialog id="Dialog">
+      <details open >
+        <summary>Titol</summary>
+        <section>
+          <h2>Section 1</h2>
+          <p>Tect arreu per a la secció 1</p>
+        </section>
+      </details>
+    
+      <section hidden>
+        <h2>Section 2</h2>
+        <p>Text arreu per a la secció 2</p>
+      </section>
+      <p>Dalt d'açò hi ha una secció 2 en hidden activat</p>
+    
+      <section>
+        <h2>Section 3</h2>
+        <p>Text arreu per a la secció 3</p>
+      </section>
+
+      <p>
+        <button onClick="document.getElementById('Dialog').close()">Cerrar</button>
+      </p>
+  </dialog>
+
+  <section>
+    <h2>Section 4</h2>
+    <p>Text arreu per a la secció 4</p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </section>
+
+  <section>
+    <h2>Section 5</h2>
+    <p>Text arreu per a la secció 5</p>
+  </section>
+
+</main>
+
+</body>
+
+</html>

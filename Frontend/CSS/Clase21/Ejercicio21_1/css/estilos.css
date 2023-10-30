@@ -1,0 +1,119 @@
+*{
+  font-family: 'Verdana', 'Genova', 'Tahoma', 'sans-serif';
+}
+header, footer, main{
+  margin:50px
+}
+
+h1{
+  font-weight: 800; 
+  font-size: 26px;
+  color: #eee;
+  background-color: #444;
+  padding: 10px 15px;
+}
+
+header h1{
+  padding: 20px 15px;
+}
+
+header nav{
+  background-color: #ddd;
+}
+
+header *{
+  margin: 0px;
+}
+
+header nav ul{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li{
+  flex: 1 1 auto;
+}
+
+header a{
+  color: #555;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+header a:hover{
+  color: #ddd;
+  background-color: #555;
+}
+
+footer figure{
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  margin: 25px 0px;
+}
+
+footer img{
+  width: 100px;
+  height: 100px;
+  margin: 0px 10px;
+  border: 1px dashed black;
+}
+
+main section{
+  display: flex;
+}
+
+main h2{
+  font-weight: 200;
+  text-align: right;
+  color: #ddd;
+  background-color: #444;
+  padding: 10px 15px;
+  font-size: large;
+  margin: 0px;
+  flex-basis: 100%;
+}
+
+section img{
+  max-width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+section article{
+  flex: 1 1 350px;
+  padding: 10px;
+  text-align: justify;
+}
+
+section article h3{
+  text-align: center;
+}
+
+#polonia{
+  background-color: rgb(21, 128, 94);
+}
+
+#oporto{
+  background-color: rgb(155, 204, 85);
+}
+
+#malta{
+  background-color: rgb(111, 180, 220);
+  max-width: 100%;
+}
+
+#oporto img{
+  object-position: 75% 25%;
+  max-width: 100%;
+}
+
+#malta img{
+  object-position: 100% 0%;
+  max-width: 100%;
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header>
+  <img src="../img/logo.png" width="700px" loading="lazy">
+    <h1>Conquer Academy</h1>
+  <nav>
+      <p><a href="../index.html">Home</a></p>
+      <p><a href="quienes.html">Quienes somos</a></p>
+      <p><a href="cursos.html">Cursos</a></p>
+      <p><a href="blog.html">Blog</a></p>
+      <p>Registro</p>
+      <p><a href="login.html">Login</a></p>
+      <p><a href="contacto.html">Contacto</a></p>
+  </nav>
+    <hr />
+  </header>
+
+  <main>
+    <section>
+      <h1>Formulario de registro</h1>
+
+      <form action="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <p>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" required>
+            <label for="surname1">Primer Apellido:</label>
+            <input type="text" name="surname1" id="surname1" required>
+            <label for="surname2">Segundo Apellido:</label>
+            <input type="text" name="surname2" id="surname2" required>
+          </p>
+  
+          <p>
+            <label for="birth">Fecha de nacimiento:</label>
+            <input type="date" id="birth" name="birth" required>
+          </p>
+
+          <p>
+            <label for="foto">Fotografía: </label>
+            <input type="file" id="foto" name="foto">
+          </p>
+
+          <p>
+            <label for="biography">Biografía: </label>
+            <br>
+            <textarea name="biography" id="biography" cols="30" rows="5"></textarea>
+          </p>
+        </fieldset >
+
+        <fieldset>
+          <legend>Datos de contacto</legend>
+          <p>
+            <label for="mail">Correo electónico:</label>
+            <input type="email" id="email" name="email" required>
+          </p>
+
+          <p>
+            <label for="web">Webpage:</label>
+            <input type="url" id="web" name="web">
+          </p>
+        </fieldset>
+
+        <p>
+          <button>Enviar</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <hr />
+    <p>© ConquerBlocks 2023 - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 1</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header>
+    <h1>Ejercicio 1</h1>
+    <p><a href="index.html"> Volver</a></p>
+    <hr />
+  </header>
+
+  <main>
+
+    <h2>Formulario de registro - Mi web:</h2>
+
+    <form action="" method="get">
+
+        <fieldset>
+          <legend>Personal data:</legend>
+          <p>
+            <label for="name">First name:</label> <br>
+            <input type="text" id="name" name="name" maxlength="50"><br>
+          </p>
+      
+          <p>
+            <label for="surname">Surname:</label> <br>
+            <input type="text" id="surname" name="surname" maxlength="50"><br>
+          </p>
+      
+          <p>
+            <label for="age">Indicate your age:</label>
+            <input type="number" name="age" id="age">
+          </p>
+      
+          <p>
+            <label for="birth">Indicate your birth date:</label><br>
+            <input type="date" id="birthday" name="birthday">
+          </p>
+      
+          <p>
+            Indicate your gender: <br>
+        
+            <input type="radio" name="sex" id="male" value="m">
+            <label for="male">Male</label> <br>
+            <input type="radio" name="sex" id="female" value="f">
+            <label for="female">Female</label> <br>
+          </p>
+        </fieldset>
+
+      <fieldset>
+        <legend>Others:</legend>
+        <p>
+          <label for="email">Indicate your email:</label> <br>
+          <input type="email" name="email" id="email" required>
+        </p>
+    
+        <p>
+          <label for="settlement">Choose your settlement:</label>
+          <select name="settlement" id="settlement">
+            <option value="">-</option>
+            <option value="a">Alicante</option>
+            <option value="m">Madrid</option>
+            <option value="s">Sevilla</option>
+            <option value="v">Valencia</option>
+          </select>
+        </p>
+    
+        <p>
+          <label for="morieinfo">More info:</label> <br>
+          <textarea name="morieinfo" id="morieinfo" cols="30" rows="5" placeholder="Write here if you have any question"></textarea>
+        </p>
+    
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Terms & Conditions</legend>
+        <p>
+          <input type="checkbox" name="promotions" id="promotions" checked>
+          <label for="promotions">I want recieve info about news and sales</label>
+        </p>
+    
+        <p>
+          <input type="checkbox" name="terms" id="terms" required>
+          <label for="terms">I have read and accept the terms and conditions and the data protecion regulations</label>
+        </p>
+    
+      </fieldset>
+      <p><button>Send</button></p>
+
+    </form>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+section{
+  background-color: #ccc;
+  width: 600px;
+  height: 400px; 
+  position: absolute;
+}
+
+.rojo{
+  background-color: red;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.amarillo{
+  background-color: yellow;
+  position: absolute;
+  width: 40%;
+  height: 100px;
+  top: 10px;
+  right: 10px;
+}
+
+.azul{
+  background-color: blue;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.verde{
+  background-color: green;
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
