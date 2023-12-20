@@ -1,0 +1,14 @@
+.button, .button--primary {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.button--primary {
+  background-color: black;
+  color: white;
+  font-size: 25px -5;
+}
+
+/*# sourceMappingURL=prueba.css.map */
