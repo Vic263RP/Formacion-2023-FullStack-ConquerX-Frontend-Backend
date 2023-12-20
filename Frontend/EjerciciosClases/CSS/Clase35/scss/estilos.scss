@@ -1,7 +1,33 @@
+// Este es un comentario para decir que el color primario del texto es verde.
+$color-primario: green;
+$color-hover: yellow;
+
 h1{
-    color:red;
+    color: $color-primario;
 }
 
 p{
-    color: blue;
+    color: red;
+}
+
+//Esto es para el anidamiento
+
+ul{
+    font-weight: bold;
+    background-color: #ccc;
+
+    a{
+        color: #00c;
+
+        &:hover{
+            background-color: $color-hover;
+        }
+    }
+
+    li:first-child{
+        background-color: black;
+        a{
+            color: white;
+        }
+    }
 }

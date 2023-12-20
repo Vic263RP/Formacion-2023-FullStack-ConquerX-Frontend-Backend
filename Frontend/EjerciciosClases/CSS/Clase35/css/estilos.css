@@ -1,7 +1,24 @@
 h1 {
-  color: red;
+  color: green;
 }
 
 p {
-  color: blue;
+  color: red;
+}
+
+ul {
+  font-weight: bold;
+  background-color: #ccc;
+}
+ul a {
+  color: #00c;
+}
+ul a:hover {
+  background-color: yellow;
+}
+ul li:first-child {
+  background-color: black;
+}
+ul li:first-child a {
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
